@@ -174,3 +174,4 @@ else:
                             st.markdown(solution)
                 else:
                     st.warning("⚠️ No math questions found. Try a clearer or more math-focused image.")
+
