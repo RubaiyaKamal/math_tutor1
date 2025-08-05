@@ -9,8 +9,6 @@ import os
 
 # ---------- Setup ----------
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Tesseract\tesseract.exe"
-
 genai.configure(api_key="AIzaSyCeVJTQondc1QP1rOXCGXLeRQa5mlhLkRI")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-2.0-flash")
 
@@ -174,4 +172,5 @@ else:
                             st.markdown(solution)
                 else:
                     st.warning("⚠️ No math questions found. Try a clearer or more math-focused image.")
+
 
